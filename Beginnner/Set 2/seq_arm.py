@@ -2,7 +2,7 @@ l = list(map(int,input().split()))
 n = l[0]
 m = l[1]
 
-for i in range(n,m+1):
+for i in range(n+1,m):
     odr = len(str(i))  
     s=0
     t = i
