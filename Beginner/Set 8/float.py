@@ -1,3 +1,6 @@
 import math as m
-n = float(input())
-print(round(m.ceil(n)))
+try:
+    n = float(input())
+    print(round(m.ceil(n)))
+except:
+    print("invalid input")
