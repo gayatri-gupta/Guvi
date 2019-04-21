@@ -13,9 +13,6 @@ try:
                     print(l[i],l[j],s)
             except:
                 pass
-            # for k in range(j+1,n):
-            # if l[i]+l[j] == l[k]:
-                # print(l[i],l[j],l[k])
 except:
     print("Invalid Input")
                     
